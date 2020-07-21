@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformer Transforms CSS 1`] = `
+"\\"use strict\\";
+
+Object.defineProperty(exports, \\"__esModule\\", {
+  value: true
+});
+exports[\\"default\\"] = void 0;
+
+var _defaultExport = new String(\\".headline.jsx-723301647{color:red;}.text.jsx-723301647{text-align:center;}\\");
+
+_defaultExport.__hash = \\"723301647\\";
+var _default = _defaultExport;
+exports[\\"default\\"] = _default;"
+`;

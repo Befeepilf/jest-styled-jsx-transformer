@@ -1,0 +1,41 @@
+{
+  "name": "jest-styled-jsx-transformer",
+  "version": "1.0.0",
+  "description": "Jest transformer for external CSS files used with styled-jsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Befeepilf/jest-styled-jsx-transformer.git"
+  },
+  "keywords": [
+    "testing",
+    "jest",
+    "jest-transformer",
+    "styled-jsx",
+    "css"
+  ],
+  "author": "Befeepilf",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Befeepilf/jest-styled-jsx-transformer/issues"
+  },
+  "homepage": "https://github.com/Befeepilf/jest-styled-jsx-transformer#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "deasync": "^0.1.20",
+    "remove": "^0.1.5",
+    "styled-jsx": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/react": "^10.4.7",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

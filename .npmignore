@@ -1,0 +1,4 @@
+jest.config.js
+.babelrc
+tests/
+coverage/
