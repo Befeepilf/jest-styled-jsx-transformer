@@ -1,6 +1,6 @@
 # jest-styled-jsx-transformer
 
-A Jest transformer using the styled-jsx/webpack loader under the hood to include external CSS files in a Jest testing environment.
+A Jest transformer using the styled-jsx/webpack loader under the hood to include external CSS files in a Jest testing environment such that their styles can be rendered using a `<style jsx>` tag.
 
 ## Installation
 
@@ -37,7 +37,7 @@ Make sure you add `styled-jsx/babel` to the list of babel plugins and **not** `s
 {
     "env": {
         "test": {
-            "presets": ["@babel/preset-env", {modules: "commonjs"}],
+            "presets": ["@babel/preset-env", {"modules": "commonjs"}],
             "plugins": ["styled-jsx/babel"]
         }
     }
