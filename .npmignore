@@ -1,4 +1,5 @@
 jest.config.js
 .babelrc
+.travis.yml
 tests/
 coverage/
