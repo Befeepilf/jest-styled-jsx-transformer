@@ -2,6 +2,8 @@
 
 A Jest transformer using the styled-jsx/webpack loader under the hood to include external CSS files in a Jest testing environment such that their styles can be rendered using a `<style jsx>` tag.
 
+[![Build Status](https://travis-ci.org/Befeepilf/jest-styled-jsx-transformer.svg?branch=master)](https://travis-ci.org/Befeepilf/jest-styled-jsx-transformer) [![Test Coverage](https://api.codeclimate.com/v1/badges/2e9c2d8ea5d9d93e4770/test_coverage)](https://codeclimate.com/github/Befeepilf/jest-styled-jsx-transformer/test_coverage)
+
 ## Installation
 
 ```
