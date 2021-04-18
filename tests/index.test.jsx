@@ -17,7 +17,7 @@ describe("transformer", () => {
         it("Elements have scoped className", () => {
             render(<TestComponent/>);
 
-            const scopeId = transformedCss.match(/_defaultExport\.__hash = "(\d+)";/)[1];
+            const scopeId = transformedCss.match(/styles\.__hash = "(\d+)";/)[1];
 
             const h1 = screen.getByText('Headline');
             expect(h1.className).toMatch(new RegExp(`jsx-${scopeId}`));

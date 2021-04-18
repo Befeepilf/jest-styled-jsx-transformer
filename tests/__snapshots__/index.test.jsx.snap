@@ -7,10 +7,8 @@ Object.defineProperty(exports, \\"__esModule\\", {
   value: true
 });
 exports[\\"default\\"] = void 0;
-
-var _defaultExport = new String(\\".headline.jsx-723301647{color:red;}.text.jsx-723301647{text-align:center;}\\");
-
-_defaultExport.__hash = \\"723301647\\";
-var _default = _defaultExport;
+var styles = new String(\\".headline.jsx-723301647{color:red;}.text.jsx-723301647{text-align:center;}\\");
+styles.__hash = \\"723301647\\";
+var _default = styles;
 exports[\\"default\\"] = _default;"
 `;
